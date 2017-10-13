@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="http://jqmdesigner.appspot.com/gk/lib/jquery.mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <!-- Uncomment the following to include cordova in your android project -->
+  <!--<script src="http://jqmdesigner.appspot.com/platforms/android/cordova.js"></script>-->
+  <title>EZo App</title>
+</head>
+
+<body>
+  <!-- Page: home  -->
+  <div id="home" data-role="page" stlye="height:100%;">
+    <div data-role="header" data-position="fixed" data-theme="b">
+      <h3>FET</h3>
+      <a class="ui-btn ui-btn-icon-left ui-btn-a ui-icon-bars" href="#left-menu" style="padding:18px; background:none;"></a>
+    </div>
+    <div id="left-menu" data-role="panel" data-position="left" data-position-fixed="true" data-theme="b">
+      <div role="main" class="ui-content">
+        <a class="ui-btn" href="http://61.20.223.56:8005/zh-TW/app/search/test1" data-transition="slide">test1</a>
+        <a class="ui-btn" href="http://61.20.223.56:8005/zh-TW/app/search/test2" data-transition="slide" target="_self">test2</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
